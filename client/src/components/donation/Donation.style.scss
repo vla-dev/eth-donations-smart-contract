@@ -1,0 +1,38 @@
+.donation-card {
+    width: 100%;
+    border: 1px solid gainsboro;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .donation-info {
+        .input-field {
+            display: flex;
+            flex-direction: column;
+            margin: 0.5rem 0;
+
+            span{
+                color: rgb(133, 133, 133);
+                font-size: 14px;
+            }
+
+            input {
+                width: 15rem;
+                height: 2rem;
+                border-radius: 0.2rem;
+                border: 1px solid rgb(133, 133, 133);
+            }
+        }
+
+        .submit-donation {
+            width: 15rem;
+            height: 2rem;
+            margin: 1.5rem 0;
+            background-color: rgb(18, 39, 48);
+            color: white;
+            font-weight: bold;
+            border-radius: 0.2rem;
+        }
+    }
+}

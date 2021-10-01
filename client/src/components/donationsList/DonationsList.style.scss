@@ -1,0 +1,15 @@
+.donations-table {
+    width: 100%;
+
+   tbody {
+    tr {
+        &:nth-child(even) {
+            background: #e4ecfe;
+          }
+    }
+
+    td {
+        padding: 0.5rem 0;
+    }
+   }
+}

@@ -1,0 +1,13 @@
+@import "./components/header/Header.style.scss";
+@import "./components/donation/Donation.style.scss";
+@import "./components/donationsList/DonationsList.style.scss";
+
+.app {
+    .balance {
+        display: flex;
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin: 1rem 0;
+        color: rgb(18, 39, 48);
+    }
+}
